@@ -8,7 +8,7 @@
 
 import Foundation
 
-@available(macOS 10.15.0, iOS 13.0, *)
+@available(macOS 10.15.0, iOS 15.0, *)
 public final class KNetwork {
     
     @available(macOS 12.0, *)

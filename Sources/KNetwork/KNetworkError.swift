@@ -17,7 +17,7 @@ public enum KNetworkError: Error, Equatable {
     case unAuthorized(message: String)
     case internalServerError(message: String)
     
-    var description: String {
+    public var description: String {
         switch self {
         case .error(let message), .parserError(let message), .badRequest(let message), .unAuthorized(let message), .internalServerError(let message):
             return message
