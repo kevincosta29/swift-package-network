@@ -9,7 +9,7 @@
 import Foundation
 
 @available(macOS 10.15.0, iOS 13.0, *)
-final class KNetwork {
+public final class KNetwork {
     
     @available(macOS 12.0, *)
     public static func executeRequest(endpoint: KEndpointProtocol, session: URLSession) async -> Result<(data: Data, statusCode: Int), KNetworkError> {

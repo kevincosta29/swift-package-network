@@ -7,7 +7,7 @@
 
 import Foundation
 
-final class FactoryEndpoint {
+public final class FactoryEndpoint {
     
     public static func setup(endpoint: KEndpointProtocol) -> URLRequest? {
         var components = URLComponents()
