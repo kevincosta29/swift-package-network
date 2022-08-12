@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "swift-package-network",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kevincosta29/swift-package-network",
+      "state" : {
+        "branch" : "main",
+        "revision" : "98c71310d378e5d3ad7095500e33ea2ab88410f0"
+      }
+    }
+  ],
+  "version" : 2
+}
