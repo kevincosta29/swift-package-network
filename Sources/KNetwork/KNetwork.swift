@@ -1,6 +1,6 @@
 //
 //  KNetwork.swift
-//  ProjectTemplate
+//
 //
 //  Created by Kevin Costa on 2/5/22.
 //
@@ -8,7 +8,7 @@
 
 import Foundation
 
-@available(macOS 10.15.0, iOS 15.0, *)
+@available(macOS 12.0, iOS 15.0, *)
 public final class KNetwork {
     
     @available(macOS 12.0, *)
