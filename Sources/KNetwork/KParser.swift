@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct KParser {
+public struct KParser {
     public static func parserData<T: Decodable>(_ data: Data) throws -> T {
         return try JSONDecoder().decode(T.self, from: data)
     }
