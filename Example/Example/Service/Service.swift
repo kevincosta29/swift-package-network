@@ -41,9 +41,3 @@ final class Service {
     }
     
 }
-
-struct KParser<T: Decodable> {
-    public static func parserData(_ data: Data) throws -> T {
-        return try JSONDecoder().decode(T.self, from: data)
-    }
-}
